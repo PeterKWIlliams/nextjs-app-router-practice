@@ -2,10 +2,6 @@ import AcmeLogo from "@/app/ui/acme-logo";
 import LoginForm from "../ui/login-form";
 import { Metadata } from "next";
 
-export const metaData: Metadata = {
-  title: "Login in page for the nextjs14 tutorial",
-};
-
 export default function LoginPage() {
   return (
     <main className="flex items-center justify-center md:h-screen">
